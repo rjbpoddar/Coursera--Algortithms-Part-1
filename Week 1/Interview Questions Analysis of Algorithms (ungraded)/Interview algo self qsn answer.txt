@@ -1,0 +1,9 @@
+1.
+Question 1 : 3-SUM in quadratic time
+ANSWER : given an integer x and a sorted array a[] of n distinct integers, design a linear-time algorithm to determine if there exists two distinct indices i and j such that a[i]+a[j]==x.
+2.
+Question 2 : Search in a bitonic array
+ANSWER :Standard version. First, find the maximum integer using ∼1lgn compares—this divides the array into the increasing and decreasing pieces. Signing bonus. Do it without finding the maximum integer.
+3.
+Question 3 : Egg drop
+ANSWER :Version 0: sequential search. Version 1: binary search. Version 2: find an interval containing T of size ≤2T, then do binary search. Version 3: find an interval of size n√, then do sequential search. Note: can be improved to ∼2n−−√ tosses. Version 4: 1+2+3+…+t∼12t2. Aim for c=22√.
