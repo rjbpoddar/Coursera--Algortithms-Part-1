@@ -1,0 +1,1 @@
+Quote: Arrays of generic types are not allowed because they’re not sound
