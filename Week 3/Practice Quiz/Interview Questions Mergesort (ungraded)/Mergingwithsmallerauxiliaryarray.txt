@@ -1,0 +1,34 @@
+1.
+Question 1
+Merging with smaller auxiliary array : -
+Answer : package jobinterviewquestions;
+
+import stdlib.StdRandom;
+public class Mergesort {
+
+private boolean less(Comparable a, Comparable b) {
+return a.compareTo(b) < 0;
+}
+
+public void mergeWithSmaller(Comparable[] a, Comparable[] aux) {
+int N = aux.length;
+assert a.length == 2*N;
+
+for (int i = 0; i < N; i++) {
+aux[i] = a[i];
+}
+
+int l = 0;
+int r = N;
+
+int i = 0;
+for (; i < N; i++) {
+if (less(aux[l], a[r])) a[i] = aux[l++];
+else a[i] = a[r++];
+}
+
+while (l < N) {
+if (r >= 2*N || less(aux[l], a[r]) ) a[i++] = aux[l++];
+else a[i++] = a[r++];
+}
+}
