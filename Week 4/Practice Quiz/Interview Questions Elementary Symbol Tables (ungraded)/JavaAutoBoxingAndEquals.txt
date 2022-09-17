@@ -1,0 +1,16 @@
+1.
+Question 1
+Java autoboxing and equals()
+ANswer:- 
+package jobinterviewquestions;
+
+import algs4.DoublingRatio;
+import algs4.Queue;
+
+public class ElementarySymbolTables {
+
+
+/*
+1. a=0.0, b=-0.0
+2. a=b=Double.NaN
+*/

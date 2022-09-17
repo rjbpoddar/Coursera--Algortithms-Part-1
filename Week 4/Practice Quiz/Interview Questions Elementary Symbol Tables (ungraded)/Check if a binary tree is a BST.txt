@@ -1,0 +1,22 @@
+2.
+Question 2
+Check if a binary tree is a BST
+Answer: -
+private class Node {
+private int key; // sorted by key
+private int val; // associated data
+private Node left, right; // left and right subtrees
+private int N; // number of nodes in subtree
+
+public Node(int key, int val, int N) {
+this.key = key;
+this.val = val;
+this.N = N;
+}
+}
+
+public boolean checkBST(Node p, int min, int max) {
+if (p == null) return true;
+if(p.key >= max || p.key <= min ) return false;
+return checkBST(p.left, min, p.key) && checkBST(p.right, p.key, max);
+}

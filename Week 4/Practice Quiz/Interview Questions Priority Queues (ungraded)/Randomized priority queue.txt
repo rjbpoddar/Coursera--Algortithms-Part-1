@@ -1,0 +1,2 @@
+generate random number from 0 - N, sample() just return that number
+when delete random, exchange with last, delete last, then compare with parent and children to decide whether swim or sink
