@@ -1,0 +1,4 @@
+3.
+Question 3
+Generalized queue
+Answer: Hint: create a red–black BST where the keys are integers and the values are the items such that the ith largest integer key in the red–black BST corresponds to the ith item in the queue.

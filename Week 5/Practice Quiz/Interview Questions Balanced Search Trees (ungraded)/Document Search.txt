@@ -1,0 +1,4 @@
+2.
+Question 2
+Document search.
+Answer: Hint: for each word, maintain a sorted list of the indices in the document in which that word appears. Scan through the sorted lists of the query words in a judicious manner.

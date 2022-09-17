@@ -1,0 +1,4 @@
+1.
+Question 1
+Red–black BST with no extra memory.
+Answer: Hint: modify the structure of the BST to encode the color information
